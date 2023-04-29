@@ -1,0 +1,12 @@
+{
+  "id": "packer",
+  "version": "0.0.1",
+  "name": "Packer",
+  "documentationURL": "https://github.com/RightWayCC/packer-feature",
+  "description": "Installs ashicorp Packer",
+  "options": {},
+  "mounts": [],
+  "installsAfter": [
+      "ghcr.io/devcontainers/features/common-utils"
+  ]
+}
