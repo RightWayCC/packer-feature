@@ -14,5 +14,5 @@ jobs:
       - name: "Install latest devcontainer CLI"
         run: npm install -g @devcontainers/cli
 
-      - name: "Test odin install"
+      - name: "Test packer install"
         run: devcontainer features test --skip-scenarios -f packer -i ubuntu .
